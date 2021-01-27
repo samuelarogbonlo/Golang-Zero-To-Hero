@@ -25,6 +25,37 @@ After understanding how relevant the language is in the software engineering fie
 
 Double your interest in Go and switch on notification on this repository as I update it with awesome Go features at least every week. Cheers.
 
+# Installing Go
+
+* Just go to the [official website](https://golang.org/dl/ and download any version that corresponds with your local machine.
+
+## MacOS
+* Open the package file you downloaded and follow the prompts to install Go.
+
+* Verify that you've installed Go by opening a command prompt and typing the following command:
+      ``` go version
+* Confirm that the command prints the installed version of Go.
+
+## Windows
+* Open the MSI file you downloaded and follow the prompts to install Go.
+
+* Verify that you've installed Go. In the Command Prompt window that appears, type the following command:
+      ```go version
+* Confirm that the command prints the installed version of Go.
+
+## Linux
+* Download the archive and extract it into /usr/local, creating a Go tree in /usr/local/go. Run the following as root or through sudo:
+      ```tar -C /usr/local -xzf go1.15.7.linux-amd64.tar.gz
+* Add /usr/local/go/bin to the PATH environment variable.
+* You can do this by adding the following line to your ```$HOME/.profile or /etc/profile ```
+ (for a system-wide installation): ```export PATH=$PATH:/usr/local/go/bin```
+
+* Note: Changes made to a profile file may not apply until the next time you log into your computer. To apply the changes immediately, just run the shell commands directly or execute them from the profile using a command such as source ```$HOME/.profile.```
+
+* Verify that you've installed Go by opening a command prompt and typing the following command:
+      ```$ go version
+* Confirm that the command prints the installed version of Go.
+
 Contributing
 Please feel free to fork this package and contribute by submitting a pull request to enhance the functionalities.
 
